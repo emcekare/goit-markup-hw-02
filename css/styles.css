@@ -1,0 +1,56 @@
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+}
+
+
+
+ul {
+    list-style-type: none;
+   
+}
+
+
+
+.head-menu {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        text-decoration: none;
+}
+
+.head-menu:hover, .head-menu:active {
+    color:#404bbf;
+}
+
+.slider-area {
+    background-color: #2e2f42;
+      text-align: center;
+}
+
+.slider-text {
+font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: white;
+}
+
+
+.slider-button {
+    color: white ;
+    background-color: #4d5ae5;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+}
+
+.slider-button:hover { 
+    background-color: #404bbf;
+}
+
