@@ -54,3 +54,33 @@ font-family: var(--font-family);
     background-color: #404bbf;
 }
 
+.first-paragraph {
+    
+}
+
+
+.page-finish{
+    background-color: #2e2f42;
+}
+
+.footer-text {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+
+}
+
+
+.team-area {
+background-color: #f4f4fd;
+
+}
+
+
+.team-list {
+background-color: #fff;
+font-family: "Roboto", sans-serif;
+
+}
