@@ -7,13 +7,8 @@ a {
     text-decoration: none;
 }
 
-ul {
-    list-style-type: none;
-}
-
-
-
 /* Header */
+
 
 .header-logo {
     font-family: 'Raleway', sans-serif;
@@ -29,12 +24,17 @@ ul {
     color: #2e2f42;
 }
 
+.head-menu {
+    color: #2e2f42;
+}
+
 .head-menu-list {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+    list-style-type: none;
 }
 
 .head-menu-list:hover, .head-menu-list:focus {
@@ -52,6 +52,17 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
+    list-style-type: none;,
+    text-decoration: none;
+}
+
+.contact-list {
+    font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.02em;
+        color: #434455;
+        font-style: normal;
+        text-decoration: none;
 }
 
 /* Header Bitti */
@@ -96,6 +107,10 @@ ul {
 
 .first-paragraph {
     text-align: center;
+   }
+
+.first-paragraph-list {
+    list-style: none;
 }
 
 .first-h3 {
@@ -129,7 +144,13 @@ ul {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        
 }
+
+.team-area-list {
+    list-style-type: none;
+}
+
 
 .team-list-name {
     font-weight: 500;
@@ -172,10 +193,14 @@ ul {
         color: #2e2f42;
 }
 
+.portfolio-area-list{
+    list-style-type: none;
+}
+
 .portfolio-list-name {
     font-weight: 500;
         font-size: 20px;
-        line-height: 120%;
+        line-height: 1.20;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
@@ -220,6 +245,8 @@ ul {
 .footer-logo-studio {
     color: #f4f4fd;
 }
+
+
 
 /* Footer Bitti */
 
