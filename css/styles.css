@@ -5,130 +5,221 @@ body {
 
 a {
     text-decoration: none;
-   }
+}
 
 ul {
     list-style-type: none;
-   
 }
+
+
+
+/* Header */
 
 .header-logo {
     font-family: 'Raleway', sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-studio {
+    color: #2e2f42;
+}
+
+.head-menu-list {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
     text-decoration: none;
 }
 
-.logo-studio{
-    color:#2e2f42
-}
-
-.footer-logo-studio{
-    color:#f4f4fd;
-}
-
-.head-menu {
-    font-weight: 500;
-        font-size: 16px;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        text-decoration: none;
-}
-
-.head-menu:hover {
+.head-menu-list:hover, .head-menu-list:focus {
     color: #404bbf;
 }
 
-
+.head-menu-list:active {
+    color: #404bbf;
+    text-decoration: underline;
+}
 
 .head-contact {
-font-weight: 400;
+    font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
 }
 
+/* Header Bitti */
 
+
+/* Slider Area*/
 .slider-area {
     background-color: #2e2f42;
-      text-align: center;
+    text-align: center;
 }
 
 .slider-text {
-font-family: var(--font-family);
+    font-family: "Roboto", sans-serif; 
     font-weight: 700;
     font-size: 56px;
-    line-height: 107%;
+    line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: white;
 }
 
-
 .slider-button {
-    color: white ;
+    color: white;
     background-color: #4d5ae5;
     font-weight: 500;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.04em;
-}
-
-.slider-button:hover { 
-    background-color: #404bbf;
-}
-
-.first-paragrapg-h3 {
-    font-weight: 500;
-        font-size: 20px;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-}
-
-.first-paragrapg-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.slider-button:hover {
+    background-color: #404bbf;
+}
+/* Slider Area Bitti*/
+
+
+
+
+
+
+/*Section 1*/
+
+.first-paragraph {
+    text-align: center;
+}
+
+.first-h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.first-paragraph-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
     letter-spacing: 0.02em;
     color: #434455;
 }
+/*section 1 bitti*/
 
 
-.page-finish{
-    background-color: #2e2f42;
-}
-
-.footer-text {
-font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-
-}
 
 
-.footer-logo {
-    font-family: 'Raleway', sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-}
+
+/*team area*/
 
 .team-area {
-background-color: #f4f4fd;
+    background-color: #f4f4fd;
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
 
+.team-list-name {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.team-list-job {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
 }
 
 
 .team-list {
-background-color: #fff;
-font-family: "Roboto", sans-serif;
-
+    background-color: #fff;
 }
+
+/*team area bitti*/
+
+
+
+
+
+
+/*Portfolio Area*/
+
+.portfolio-area {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.portfolio-list-name {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.portfolio-list-job {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+/*portfolio area bitti*/
+
+
+
+
+
+/* Footer */
+
+.page-finish {
+    background-color: #2e2f42;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-logo-studio {
+    color: #f4f4fd;
+}
+
+/* Footer Bitti */
+
