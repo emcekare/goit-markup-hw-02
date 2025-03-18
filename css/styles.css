@@ -3,13 +3,24 @@ body {
     line-height: 1.5;
 }
 
-
+a {
+    text-decoration: none;
+    color: #404bbf;
+}
 
 ul {
     list-style-type: none;
    
 }
 
+#header-logo {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+}
 
 
 .head-menu {
@@ -54,9 +65,7 @@ font-family: var(--font-family);
     background-color: #404bbf;
 }
 
-.first-paragraph {
-    
-}
+
 
 
 .page-finish{
